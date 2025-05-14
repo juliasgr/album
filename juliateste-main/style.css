@@ -1,12 +1,12 @@
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
     background: #fff0f6;
     margin: 0;
     padding: 0;
   }
-  
+
   header {
-    background-color: #edb2b2;
+    background-color: #bb9f9f;
     padding: 20px;
     text-align: center;
     font-size: 24px;
@@ -22,7 +22,7 @@ body {
   }
   
   .photo-frame {
-    background: #fff;
+    background: #fff0f6;
     border: 3px dashed #50041e;
     border-radius: 16px;
     padding: 10px;
@@ -44,7 +44,7 @@ body {
     display: block;
     margin-top: 10px;
     text-align: center;
-    color: #a64d79;
+    color: #50041e;
     font-size: 14px;
   }
   
@@ -54,7 +54,7 @@ body {
   }
   
   button {
-    background-color: #ffb3d9;
+    background-color: #50041e;
     border: none;
     padding: 10px 20px;
     border-radius: 12px;
@@ -65,6 +65,6 @@ body {
   }
   
   button:hover {
-    background-color: #ff99cc;
+    background-color: #9e4061;
   }
   
