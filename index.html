@@ -8,8 +8,26 @@
 <body>
   <header>
     <h1>nosso álbum</h1>
-    <button type="button" onclick="alert('Oi meu amor! Fiz com muito carinho, espero que goste💖')"> Clique aqui!</button>
-  </header>
+    <div id="surpresa" onclick="mostrarCarta()" class="carta-fechada">
+      💌
+    </div>
+    
+    <div id="carta" class="oculto">
+      <div class="mensagem">
+        <h2>Meu amor...</h2>
+        <p>
+          Fiz esse álbum com muito carinho, essas fotos são de alguns momentos que a gente viveu, e com certeza virão muitos outros pela frente, eu te amo muito! 🌟
+        </p>
+      </div>
+    </div>
+    <script>
+      function mostrarCarta() {
+        document.getElementById('surpresa').style.display = 'none';
+        document.getElementById('carta').classList.remove('oculto');
+      }
+    </script>
+    
+      </header>
   <main class="gallery">
     <div class="photo-frame">
       <img src="imagens/foto1.jpg" alt="Foto 1">
